@@ -17,6 +17,51 @@ body {
 }
 
 .foto {
-    width: 40%;
+    width: 20%;
     border-radius: 20px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.sobre {
+    text-align: center;
+    font-size: 20px;
+    margin: 80px;
+}
+
+.titulo-curiosidades {
+    font-size: 40px;
+    text-align: center;
+    color: #963a50;
+}
+
+.curiosidades {
+    font-size: 20px;
+    margin: 100px;
+    color: #c24a65;
+}
+
+.item-dois {
+    color: #e4718d;
+}
+
+.item-tres {
+    color: #e78098;
+}
+
+.item-quatro {
+    color: #eea5bc;
+}
+
+.instagram {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.instagram:hover {
+    color:#a33a4e;
+}
+
+.instagram-icone {
+    width: 30px;
 }
