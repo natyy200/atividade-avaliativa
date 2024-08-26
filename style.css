@@ -1,0 +1,22 @@
+:root {
+    --cor-de-fundo: #312b2e;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: white;
+}
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+}
+
+.foto {
+    width: 40%;
+    border-radius: 20px;
+}
