@@ -9,7 +9,6 @@ body {
     color: white;
     font-family: "Montserrat", sans-serif;
       font-optical-sizing: auto;
-      font-weight: <weight>;
       font-style: normal;
 }
 
@@ -26,6 +25,12 @@ body {
     width: 20%;
     border-radius: 20px;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    transition: transform ease-out 0.5s;
+    transform: scale(1);
+}
+
+.foto:hover {
+    transform: scale(1.05);
 }
 
 .sobre {
